@@ -1466,6 +1466,8 @@ article img {width: 30%; height: 30%;}
     header.sticky {
       padding: 20px 10px;
     }
+    
+    .menu { padding: 15px 50px;}
     .banner {padding: 150px 20px 100px;}
     section {padding: 200px 20px;}
 
