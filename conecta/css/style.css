@@ -657,4 +657,25 @@ footer p {
   }
   .banner {padding: 150px 20px 100px;}
   section {padding: 100px 20px;}
+   
+    /*footer*/
+    footer {padding: 50px;}
+    footer .contains {
+        flex-direction: column;
+    }
+
+    footer .contains .sec.aboutus {
+        width: 100%;
+    }
+
+    .quickLinks {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .copyright p {font-size: 14px;}
+  
 }
