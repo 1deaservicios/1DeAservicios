@@ -282,7 +282,39 @@ section p {
     transform: translateY(0px);
 }
 
+.swiper {
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
 
+.swiper h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+}
+
+.swiper-slide img {
+    margin: 0 15px;
+    width: 90%;
+    height: 90%;
+}
 
 @media (max-width: 991px){
     header,
